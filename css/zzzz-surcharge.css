@@ -84,7 +84,7 @@ h4, .h4-like {
 .mn-item-lvl-1>.mn-link {
   font-family: 'Gotham-Bold', Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 11px; /*Mis à 11px pour caler tous les boutons 13px par défaut*/
   line-height: 18px;
   min-height: 80px;
   max-height: 80px;
@@ -113,8 +113,34 @@ h4, .h4-like {
 .mn-item-lvl-1:last-child {
   border-right: 0 none;
 }
-.mn-item-lvl-1:last-child > .mn-link {
+
+/*ciblage bouton acheter vos billets (rouge)*/
+.mn-item-lvl-1:nth-last-child(2) > .mn-link {
   background-color: #b10135;
+  background-image: url('img/icons/icon-billet.svg');
+  background-repeat: no-repeat;
+  background-position: 28px center;
+  background-size: 20px auto;
+  padding-left: 60px;
+  text-align: left;
+  max-width: 196px;
+  -webkit-transition: all ease 0.25s;
+  -o-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+.mn-item-lvl-1:nth-last-child(2) > .mn-link::after {
+  height: 0!important;
+}
+.mn-item-lvl-1:nth-last-child(2) > .mn-link:hover {
+  color: #27211f;
+  background-image: url('img/icons/icon-billet-red.svg');
+  background-color: white;
+}
+
+/*ciblage bouton nuit du cheval*/
+
+.mn-item-lvl-1:last-child > .mn-link {
+  background-color: #0F2482;
   background-image: url('img/icons/icon-billet.svg');
   background-repeat: no-repeat;
   background-position: 28px center;
@@ -132,8 +158,9 @@ h4, .h4-like {
 .mn-item-lvl-1:last-child > .mn-link:hover {
   color: #27211f;
   background-image: url('img/icons/icon-billet-red.svg');
-	background-color: white;
+  background-color: white;
 }
+
 .mn-item-lvl-1:nth-child(6){
   border-right: 0 none;
 }
