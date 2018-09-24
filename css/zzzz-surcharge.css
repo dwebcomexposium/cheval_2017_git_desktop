@@ -157,7 +157,7 @@ h4, .h4-like {
 }
 .mn-item-lvl-1:last-child > .mn-link:hover {
   color: #27211f;
-  background-image: url('img/icons/icon-billet-red.svg');
+  background-image: url('img/icons/icon-billet-blue.svg');
   background-color: white;
 }
 
