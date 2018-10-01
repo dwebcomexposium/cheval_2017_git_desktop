@@ -115,7 +115,7 @@ h4, .h4-like {
 }
 
 /*ciblage bouton acheter vos billets (rouge)*/
-.mn-item-lvl-1:nth-last-child(2) > .mn-link {
+:not(.espacepro) .mn-item-lvl-1:nth-last-child(2) > .mn-link {
   background-color: #b10135;
   background-image: url('img/icons/icon-billet.svg');
   background-repeat: no-repeat;
@@ -128,10 +128,10 @@ h4, .h4-like {
   -o-transition: all ease 0.25s;
   transition: all ease 0.25s;
 }
-.mn-item-lvl-1:nth-last-child(2) > .mn-link::after {
+:not(.espacepro) .mn-item-lvl-1:nth-last-child(2) > .mn-link::after {
   height: 0!important;
 }
-.mn-item-lvl-1:nth-last-child(2) > .mn-link:hover {
+:not(.espacepro) .mn-item-lvl-1:nth-last-child(2) > .mn-link:hover {
   color: #27211f;
   background-image: url('img/icons/icon-billet-red.svg');
   background-color: white;
