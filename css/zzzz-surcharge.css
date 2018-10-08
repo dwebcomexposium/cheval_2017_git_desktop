@@ -1863,6 +1863,8 @@ body.longines .site-wrapper::before{
 }
 .page-events .mod-catal .esf-search-line .form-select {
   width: calc(100% - 180px)!important;
+  max-width: 600px;
+  margin-right: 15px;
 }
 .mod-catal.exhibitor-search-form .esf-search-line input {
   padding: 16px 20px;
