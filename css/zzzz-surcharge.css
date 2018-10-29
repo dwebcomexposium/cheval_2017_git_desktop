@@ -120,7 +120,7 @@ body:not(.espacepro) .mn-item-lvl-1:nth-last-child(2) > .mn-link {
   background-image: url('img/icons/icon-billet.svg');
   background-repeat: no-repeat;
   background-position: 28px center;
-  background-size: 20px auto;
+  background-size: 20px 30px;
   padding-left: 60px;
   text-align: left;
   max-width: 196px;
@@ -144,10 +144,10 @@ body:not(.espacepro) .mn-item-lvl-1:nth-last-child(2) > .mn-link:hover {
   background-image: url('img/icons/icon-billet.svg');
   background-repeat: no-repeat;
   background-position: 28px center;
-  background-size: 20px auto;
+  background-size: 20px 30px;
   padding-left: 60px;
   text-align: left;
-  max-width: 196px;
+  max-width: 180px;
   -webkit-transition: all ease 0.25s;
   -o-transition: all ease 0.25s;
   transition: all ease 0.25s;
@@ -292,13 +292,20 @@ body:not(.espacepro) .mn-item-lvl-1:nth-last-child(2) > .mn-link:hover {
 .site-banner .gsf-fields .gsf-input {
   background: #efefef;
   height: 33px;
-  min-height: initial;
+  min-height: 33px;
   font-weight: bold;
   font-size: 12px;
   border-radius: 50px 0 0 50px;
   padding: 0 3px 0 15px;
 }
-
+/*
+Hack ie9+
+*/
+@media screen and (min-width:0\0) {
+	.site-banner .gsf-fields .gsf-input {
+		margin-left:15px;
+	}
+}
 .site-banner .gsf-submit-btn {
   min-height: inherit;
   height: 33px!important;
