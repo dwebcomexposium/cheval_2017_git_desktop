@@ -1985,7 +1985,12 @@ margin-right:4px;
     margin-top: -1px;
 }
 #cxpmClientAccountWidget .logged .icon-user-circle-o {
-    margin-bottom:-15px;
+    margin-bottom:0px;
+}
+div#cxpmClientAccountWidget .logged span#widgetFirstnameText {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .page-events.event .mod-catal .catal-ex-item-buttons, 
 .page-events.event .mod-catal .catal-ex-item-buttons-small {
