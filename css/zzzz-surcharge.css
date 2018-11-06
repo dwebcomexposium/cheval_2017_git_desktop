@@ -1987,7 +1987,7 @@ margin-right:4px;
 #cxpmClientAccountWidget .logged .icon-user-circle-o {
     margin-bottom:0px;
 }
-div#cxpmClientAccountWidget .logged span#widgetFirstnameText {
+div#cxpmClientAccountWidget .logged span#widgetFirstname {
     max-width: 100px;
     overflow: hidden;
     text-overflow: ellipsis;
