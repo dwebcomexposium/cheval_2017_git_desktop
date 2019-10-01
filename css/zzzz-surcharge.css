@@ -1719,6 +1719,7 @@ body.longines .site-wrapper::before{
   background-image: url('img/logo-longines.svg');
   top: 32px;
   height: 167px;
+  background-size: 260px auto;
 }
 #cxpmClientAccountWidget {
   display: inline-block;
