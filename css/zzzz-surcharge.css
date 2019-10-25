@@ -1760,13 +1760,6 @@ body.longines .site-wrapper::before{
 }
 
 /* ========== Calendar ========== */
-.mod-catal .catal-ex-item.is-premium {
-  border: 6px solid #ab0036;
-  padding: 2rem;
-}
-.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
-  color: #ab0036;
-}
 .page-events #zone3 ,
 .page-events .mod-catal .organizer_event ,
 .page-events  .mod-catal .catal-ex-item-cat-title,
@@ -2281,4 +2274,21 @@ h2 {
 
 .page-events .mod-catal .catal-ex-item-stand-more {
   display: block;
+}
+
+.mod-catal .catal-ex-item.is-premium {
+  border: 5px solid #ab0036;
+  padding: 3.7rem 2rem 2.3rem;
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
+  color: #ab0036;
+}
+
+.mod-catal .catal-ex-item-tag .catal-ex-item-tag-premium {
+    display: block;
+    font-size: 12px;
+    color: white;
+    padding: 0px 10px 4px;
+    background-color: #ab0036;
 }
