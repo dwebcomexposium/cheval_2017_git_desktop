@@ -2276,15 +2276,18 @@ h2 {
   display: block;
 }
 
+.mod-catal .catal-ex-item.is-top-premium,
 .mod-catal .catal-ex-item.is-premium {
   border: 5px solid #ab0036;
   padding: 3.7rem 2rem 2.3rem;
+  background-color:white;
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
   color: #ab0036;
 }
 
+.mod-catal .catal-ex-item.is-top-premium .catal-ex-item-tag-premium,
 .mod-catal .catal-ex-item-tag .catal-ex-item-tag-premium {
     display: block;
     font-size: 12px;
