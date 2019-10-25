@@ -1760,7 +1760,13 @@ body.longines .site-wrapper::before{
 }
 
 /* ========== Calendar ========== */
-
+.mod-catal .catal-ex-item.is-premium {
+  border: 6px solid #ab0036;
+  padding: 2rem;
+}
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
+  color: #ab0036;
+}
 .page-events #zone3 ,
 .page-events .mod-catal .organizer_event ,
 .page-events  .mod-catal .catal-ex-item-cat-title,
