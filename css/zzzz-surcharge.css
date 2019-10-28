@@ -2297,3 +2297,13 @@ h2 {
   background-color: #ab0036;
   text-transform: none;
 }
+
+.mod-catal .catal-ex-item-tag .catal-ex-item-tag-premium {
+  display: none;
+}
+
+.mod-catal .catal-ex-item.is-premium {
+    padding: 0 0 15px 0;
+    border: 0 none;
+    border-bottom: 1px solid rgba(39,33,31,.15);
+}
