@@ -1121,7 +1121,7 @@ body:not(.front) #zone3 .quicklinks .ql-item a .icon ,
 .front #zone4 {
   background-color: #ebebeb;
   text-align: center;
-  padding-top: 85px;
+  /*padding-top: 85px;*/
 }
 
 /* ========== Espace pro ========== */
